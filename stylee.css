@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Playfair+Display:ital,wght@0,400;1,500&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat',sans-serif;
+}
+nav{
+    margin-top: -33px;
+    display: flex;
+    flex-wrap: ;
+    justify-content: center;
+    align-items: center;
+}
+
+nav h1{
+color: #717171;
+font-family:'Playfair Display',sans-serif ;
+font-size: 30px;
+}
+nav .onglets{
+    margin-top: 3px;
+    margin-left: 300px;
+}
+nav .onglets a{
+    text-decoration: none;
+    color: black;
+    margin-right: 10px;
+    border-bottom: 1px solid #000;
+    padding-bottom: 5px;
+    
+}
+
+header{
+    margin-top: -45px;
+    display: flex;
+    flex-direction: column;
+  
+    background:url('https://res.cloudinary.com/serdy-m-dia-inc/image/upload/w_800,c_limit/legacy_espaces//var/data/gallery/photo/41/50/53/00/16/73063.jpg');
+background-size: cover;
+color: #fff;
+padding: 26px;      
+}
+
+header h1{
+    width: 100px;
+    height: 45px;
+    padding-right: 30px;
+}
+
+}
+header h2{
+   margin-top: -20px;
+   font-size: 20px;
+   text-align: center;
+   border-bottom: 1px solid #fff;
+
+}
+header h3{
+    margin-top: -20px;
+    font-size: 20px;
+  padding: 10px;
+    border-bottom: 1px solid #fff;
+ 
+ }
+ 
+ img{
+    width: 153px;
+    height: 163px;
+    display: flex; 
+    flex-direction: column-reverse;
+    
+   
+ }
+ #im{
+    clip-path:ellipse(50% 50%);
+    width: 100%;
+    justify-content: left;
+ }
+
+/* .main .conten .car .right{justify-content: center;} */
+.main{display:inline-flex;}
+.card {
+margin-top:100px ;
+   margin-left:120px ;
+   margin-bottom: 100px;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.30), 0 11px 8px rgba(0,0,0,0.22);
+    width: 300px;
+    height: 300px;
+    box-sizing: border-box;
+    transition-duration: 1s;
+ }
+ .card > img {
+    max-width: 100%;
+    height: auto;
+    width: auto;
+    margin: 0px;
+ }
+ .card > p {
+    font-family: sans-serif;
+    padding: 0px 10px 10px 10px;
+    text-align: center;
+ }
+ .card:hover {
+    box-shadow: 0 18px 36px rgba(0,0,0,0.30), 0 14px 11px rgba(0,0,0,0.22);
+    width: 270px;
+ }
+ .program{ text-align: center;}
+.form1{margin-top: 20px;}
+footer{
+    margin-top: 0px;
+    background-color: rgb(214, 19, 19);
+    color: #fff;
+    padding: 30px 100px;
+}
+footer h1{
+    font-family:'Playfair Display',sans-serif ;
+    border-bottom: 1px solid #fff;
+    width: 120px;
+    padding-bottom: 5px;
+}
+footer .services{
+    margin-top: -10px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+footer .services .service{
+ margin-right: 30px;
+
+}
+footer .services .service p{
+    max-width: 300px;
+    padding: 5px;
+     
+   } 
+   footer #contact{
+    color: rgb(181, 181,181);
+   }
+    @media screen and (max width:680px){
+
+    nav .onglets{
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+}
+
+    
